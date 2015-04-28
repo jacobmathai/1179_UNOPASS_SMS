@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.12"
+        android:background="@drawable/a" >
+
+        <EditText
+            android:id="@+id/mobstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="116dp"
+            android:ems="10"
+            android:hint="Mobile No"
+            android:inputType="phone" >
+
+         
+        </EditText>
+
+        <Button
+            android:id="@+id/startapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobstart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="31dp"
+            android:text="Start Application" />
+
+        <Button
+            android:id="@+id/graphical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startapp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:text="Graphical Password" />
+
+    </RelativeLayout>
+
+</LinearLayout>
